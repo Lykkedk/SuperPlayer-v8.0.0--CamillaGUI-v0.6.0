@@ -21,7 +21,7 @@ drwxrwxr-x    2 tc       staff         4096 Sep 23 17:06 config/
 -rw-rw-r--    1 tc       staff         1198 Sep 23 17:06 main.py
 ```
 
-Now grab all the .tcz extensions ::
+Now grab all the .tcz extensions and copy them to right location ::
 ```
 tce-load -w git
 tce-load -i git
@@ -30,6 +30,8 @@ cd SuperPlayer-v8.0.0--CamillaGUI-v0.6.0
 cp *.tcz /mnt/mmcblk0p2/tce/optional
 cp *.tcz.dep /mnt/mmcblk0p2/tce/optional
 ```
+When done, the folder ```SuperPlayer-v8.0.0--CamillaGUI-v0.6.0``` can be deleted... Be carefull ;-) ```rm -fr SuperPlayer-v8.0.0--CamillaGUI-v0.6.0```
+
 Go and paste the lines in ```/opt/bootlocal.sh``` so it looks like this (The three lines at the bottom) ::
 ```
 #!/bin/sh
