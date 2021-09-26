@@ -30,7 +30,7 @@ cd SuperPlayer-v8.0.0--CamillaGUI-v0.6.0
 cp *.tcz /mnt/mmcblk0p2/tce/optional
 cp *.tcz.dep /mnt/mmcblk0p2/tce/optional
 ```
-Now paste the lines in ```/opt/bootlocal.sh``` so it looks like this (The three lines at the bottom) ::
+Go and paste the lines in ```/opt/bootlocal.sh``` so it looks like this (The three lines at the bottom) ::
 ```
 #!/bin/sh
 # put other system startup commands here
@@ -47,6 +47,20 @@ echo "${GREEN}Running bootlocal.sh..."
 camillagui  > /dev/null 2>&1 &
 # SuperPlayer ------
 ```
+When we are at it, paste the lines ```camillagui-v0.6.0.tcz & camilladsp-0.6.3.tcz``` in  ```/mnt/mmcblk0p2/tce/onboot.lst```
+```
+tc@SuperPlayer:~$ cat /mnt/mmcblk0p2/tce/onboot.lst
+pcp.tcz
+pcp-8.0.0-www.tcz
+nano.tcz
+python3.8.tcz
+camilladsp-0.6.3.tcz
+camillagui-v0.6.0.tcz
+
+```
+If you not allready have python3.8 installed, then do ```tce-load -wi python3.8```\
+Then the line ```python3.8.tcz``` will be added automaticly...
+
 Remember to do ```sudo filetool.sh -b``` or the pCP way ```pcp bu``` (pcp = piCorePlayer / bu = Backup)
 
 
