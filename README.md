@@ -4,7 +4,7 @@
 **CamillaGUI .tcz extensions the right way of doing it for TinyCore/PiCore Linux**\
 *Instead of pip3 install everything to be able to run the nice CamillaDSP-GUI i created a lot*\
 *of .tcz extensions, with help from the nice guy's over at TinyCore Linux RPI Forum*\
-*Something i wanted for a long time, and as said the right way of doing it the Tiny/Picore Linux way*
+*Something i wanted for a long time, and as said the right way of doing it the Tiny/Picore Linux way*\
 *Thread and help here :: https://www.diyaudio.com/forums/pc-based/361429-superplayer-dsp_engine-camilladsp-samplerate-switching-esp32-remote-control.html*
 
 *For some insight's of howto ssh into piCorePlayer and edit stuff etc.., take a look at my other repos, where it's explained*
