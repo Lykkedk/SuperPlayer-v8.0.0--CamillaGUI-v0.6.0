@@ -61,10 +61,12 @@ camillagui-v0.6.0.tcz
 If you not allready have python3.8 installed, then do ```tce-load -wi python3.8```\
 Then the line ```python3.8.tcz``` will be added automaticly...
 
-Remember to do ```sudo filetool.sh -b``` or the pCP way ```pcp bu``` (pcp = piCorePlayer / bu = Backup)
+**Remember to do ```sudo filetool.sh -b``` or the pCP way ```pcp bu``` (pcp = piCorePlayer / bu = Backup)**
 
+When the camillagui-v0.6.0.tcz is loaded/extracted at boot, it will look for the folder's ```/home/tc/camilladsp/configs & coeffs```, and\
+if they are missing **(and only then)** they will be created, but please don't blame me if my .tcz's corrupt anything ;-)
 
-
+The structure of the .tcz package ::
 ```
 camillagui
 ├── home
@@ -76,4 +78,6 @@ camillagui
         └── tce.installed
             └── camillagui-v0.6.0
 ```
-Bla... Bla...
+I did test this over and over, and everything seem's to work flawlessly.
+
+Jesper (lykkedk over at diyaudio.com)
