@@ -4,6 +4,7 @@
 Follow Henrik's instructions https://github.com/HEnquist/camillagui-backend and install the Backend Server for CamillaGUI in this location ::
 #### /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui <----- The location is very important 
 
+It should look like this when done ::
 ```
 tc@SuperPlayer:~$ ls -all /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui
 total 68
@@ -17,6 +18,13 @@ drwxrwxr-x    2 tc       staff         4096 Sep 23 17:06 config/
 -rw-rw-r--    1 tc       staff         1198 Sep 23 17:06 main.py
 ```
 
+Now grab all the .tcz extensions ::
+```
+tce-load -w git
+tce-load -i git
+cd 
+
+```
 
 
 ```
