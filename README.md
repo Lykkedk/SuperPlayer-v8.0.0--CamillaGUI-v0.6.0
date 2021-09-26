@@ -14,6 +14,14 @@
 Follow Henrik's instructions https://github.com/HEnquist/camillagui-backend and install the Backend Server for CamillaGUI in this location ::
 **/mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui <----- The location is very important** 
 
+This is what have to be done (Snip from GitHub)::
+```
+Go to "Releases": https://github.com/HEnquist/camillagui-backend/releases Download the zip-file ("camillagui.zip") for the latest release. This includes both the backend and the frontend.
+
+Unzip the file, and edit config/camillagui.yml if needed.
+
+```
+
 It should look like this when done ::
 ```
 tc@SuperPlayer:~$ ls -all /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui
