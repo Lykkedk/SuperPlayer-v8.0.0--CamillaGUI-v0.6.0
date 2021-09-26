@@ -22,7 +22,27 @@ Now grab all the .tcz extensions ::
 ```
 tce-load -w git
 tce-load -i git
-cd 
+git clone https://github.com/Lykkedk/SuperPlayer-v8.0.0--CamillaGUI-v0.6.0.git
+cd SuperPlayer-v8.0.0--CamillaGUI-v0.6.0
+cp *.tcz /mnt/mmcblk0p2/tce/optional
+cp *.tcz.dep /mnt/mmcblk0p2/tce/optional
+```
+Now paste the lines in ```/opt/bootlocal.sh``` so it looks like this ::
+#!/bin/sh
+# put other system startup commands here
+
+GREEN="$(echo -e '\033[1;32m')"
+
+echo
+echo "${GREEN}Running bootlocal.sh..."
+#pCPstart------
+/usr/local/etc/init.d/pcp_startup.sh 2>&1 | tee -a /var/log/pcp_boot.log
+#pCPstop------
+
+# SuperPlayer ------
+camillagui  > /dev/null 2>&1 &
+# SuperPlayer ------
+```
 
 ```
 
