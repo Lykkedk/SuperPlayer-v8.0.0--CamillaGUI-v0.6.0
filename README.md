@@ -30,7 +30,7 @@ cd SuperPlayer-v8.0.0--CamillaGUI-v0.6.0
 cp *.tcz /mnt/mmcblk0p2/tce/optional
 cp *.tcz.dep /mnt/mmcblk0p2/tce/optional
 ```
-Now paste the lines in ```/opt/bootlocal.sh``` so it looks like this ::
+Now paste the lines in ```/opt/bootlocal.sh``` so it looks like this (The three lines at the bottom) ::
 ```
 #!/bin/sh
 # put other system startup commands here
@@ -47,7 +47,7 @@ echo "${GREEN}Running bootlocal.sh..."
 camillagui  > /dev/null 2>&1 &
 # SuperPlayer ------
 ```
-
+Remember to do ```sudo filetool.sh -b``` or the pCP way ```pcp bu``` (pcp = piCorePlayer / bu = Backup)
 
 
 
