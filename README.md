@@ -1,7 +1,11 @@
 # SuperPlayer-v8.0.0 --- CamillaGUI-v0.6.0 .tcz extensions
 **SuperPlayer-v8.0.0 is an sort of extension for the piCorePlayer v8 https://www.picoreplayer.org/**
 
-*CamillaGUI .tcz extensions the right way of doing it for TinyCore/PiCore Linux*\
+**CamillaGUI .tcz extensions the right way of doing it for TinyCore/PiCore Linux**\
+*Instead of pip3 install everything to be able to run the nice CamillaDSP-GUI i created a lot*\
+*of .tcz extensions, with help from the nice guy's over at TinyCore Linux RPI Forum*\
+*Something i wanted for a long time, and as said the right way of doing it the Tiny/Picore Linux way*
+
 *For some insight's of howto ssh into piCorePlayer and edit stuff etc.., take a look at my other repos, where it's explained*
 
 Follow Henrik's instructions https://github.com/HEnquist/camillagui-backend and install the Backend Server for CamillaGUI in this location ::
