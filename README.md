@@ -54,7 +54,7 @@ camillagui  > /dev/null 2>&1 &
 # SuperPlayer ------
 ```
 When we are at it, paste the lines ```camillagui-v0.6.0.tcz & camilladsp-0.6.3.tcz``` in  ```/mnt/mmcblk0p2/tce/onboot.lst```\
-If you somewhat use another camilladsp binary, just delete the ```camilladsp-0.6.3.tcz``` extension.
+*If you somewhat use another camilladsp binary, just delete the ```camilladsp-0.6.3.tcz``` extension.*
 ```
 tc@SuperPlayer:~$ cat /mnt/mmcblk0p2/tce/onboot.lst
 pcp.tcz
