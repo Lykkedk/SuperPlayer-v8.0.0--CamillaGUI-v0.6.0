@@ -31,6 +31,7 @@ cp *.tcz /mnt/mmcblk0p2/tce/optional
 cp *.tcz.dep /mnt/mmcblk0p2/tce/optional
 ```
 Now paste the lines in ```/opt/bootlocal.sh``` so it looks like this ::
+```
 #!/bin/sh
 # put other system startup commands here
 
@@ -47,7 +48,7 @@ camillagui  > /dev/null 2>&1 &
 # SuperPlayer ------
 ```
 
-```
+
 
 
 ```
