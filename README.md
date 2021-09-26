@@ -1,8 +1,8 @@
 # SuperPlayer-v8.0.0 --- CamillaGUI-v0.6.0 .tcz extensions
-CamillaGUI .tcz extensions the right way of doing it for TinyCore/PiCore Linux
+*CamillaGUI .tcz extensions the right way of doing it for TinyCore/PiCore Linux*
 
 Follow Henrik's instructions https://github.com/HEnquist/camillagui-backend and install the Backend Server for CamillaGUI in this location ::
-### /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui <----- The location is very important 
+#### /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui <----- The location is very important 
 
 ```
 tc@SuperPlayer:~$ ls -all /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui
