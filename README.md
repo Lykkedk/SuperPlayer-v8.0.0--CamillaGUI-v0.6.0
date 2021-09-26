@@ -81,4 +81,5 @@ camillagui
 ```
 I did test this over and over, and everything seem's to work flawlessly.
 
-Jesper (lykkedk over at diyaudio.com)
+Jesper (lykkedk over at diyaudio.com)\
+Thread and help here :: https://www.diyaudio.com/forums/pc-based/361429-superplayer-dsp_engine-camilladsp-samplerate-switching-esp32-remote-control.html
