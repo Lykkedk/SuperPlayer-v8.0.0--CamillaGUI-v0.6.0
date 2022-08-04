@@ -157,10 +157,10 @@ touch /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/session/active_config.yml
 ```
 Now edit the config file, which tells the CamillaDSP GUI where to store/save those thing's\
 It's four lines inside which have to be changed :\
-*config_dir: "~/camilladsp/configs"\
-coeff_dir: "~/camilladsp/coeffs"\
-default_config: "~/camilladsp/default_config.yml"\
-active_config: "~/camilladsp/active_config.yml"*\
+*config_dir: "~/camilladsp/configs"*\
+*coeff_dir: "~/camilladsp/coeffs"*\
+*default_config: "~/camilladsp/default_config.yml"*\
+*active_config: "~/camilladsp/active_config.yml"*
 ```
 ---
 camilla_host: "127.0.0.1"
