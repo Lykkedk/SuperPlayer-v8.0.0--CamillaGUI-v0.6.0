@@ -104,7 +104,10 @@ I did test this over and over, and everything seem's to work flawlessly.
 
 ## Upgrade Guide GUI
 
-Let's see!
+Currently under construction!
+
+
+
 
 Jesper (lykkedk over at diyaudio.com)\
 
