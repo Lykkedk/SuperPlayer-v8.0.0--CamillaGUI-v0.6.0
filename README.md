@@ -108,7 +108,7 @@ Jesper (lykkedk over at diyaudio.com)
 
 ## Upgrade Guide GUI
 
-Git clone as in the guide and copy the new files to the right location :
+Git clone as in the guide and copy the new files to the right location ::
 ```
 tce-load -w git
 tce-load -i git
