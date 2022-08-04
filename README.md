@@ -102,6 +102,8 @@ camillagui
 ```
 I did test this over and over, and everything seem's to work flawlessly.
 
+Jesper (lykkedk over at diyaudio.com)
+
 ## Upgrade Guide GUI
 
 Currently under construction!
@@ -137,7 +139,7 @@ SuperPlayer-GameChanger.tcz
 ```
 
 When done, execute ```pcp bu``` & then reboot the Pi-machine\
-Everything should hopefully work.\
+Everything should hopefully work.
 
-Jesper (lykkedk over at diyaudio.com)\
+
 
