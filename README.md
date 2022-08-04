@@ -137,7 +137,52 @@ superplayer-alsa_cdsp-v8.0.0.tcz
 SuperPlayer-GameChanger.tcz
 ```
 
-When done, execute ```pcp bu``` & then reboot the Pi-machine\
+When done, execute ```pcp bu``` & then reboot the Pi-machine.
+
+There is a catch here... case is that if you create and save some filters etc... in the CamillaDSP GUI, it would not survive during a reboot\
+unless you login via SSH and save it (```pcp bu```)\
+So if we want that to be saved like in any ordinary other distro., we need to create the two folder's where CamillaDSP GUI is saving this.\
+The two folder's are the configs and coeffs folders inside the /home/tc/camilladsp directory (default Camilladsp installation)\
+So to preserve them during reboot, we can place them directly on the SDcard "mmcblk0p2" partition ;-)\
+This is ofcause optional, but if you want it then execute the following :\
+(One line at a time)
+
+```
+cd
+mkdir /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/cdsp_configs
+mkdir /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/cdsp_coeffs
+mkdir /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/session
+touch /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/session/default_config.yml
+touch /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/session/active_config.yml
+```
+Now edit the config file, which tells the CamillaDSP GUI where to store/save those thing's\
+It's four lines inside which have to be changed :\
+*config_dir: "~/camilladsp/configs"\
+coeff_dir: "~/camilladsp/coeffs"\
+default_config: "~/camilladsp/default_config.yml"\
+active_config: "~/camilladsp/active_config.yml"*\
+```
+---
+camilla_host: "127.0.0.1"
+camilla_port: 1234
+port: 5000
+config_dir: "~/camilladsp/configs"
+coeff_dir: "~/camilladsp/coeffs"
+default_config: "~/camilladsp/default_config.yml"
+active_config: "~/camilladsp/active_config.yml"
+log_file: "~/camilladsp/camilladsp.log"
+update_symlink: true
+on_set_active_config: null
+on_get_active_config: null
+supported_capture_types: null
+supported_playback_types: null
+
+
+
+```
+
+
+
 Everything should hopefully work.
 
 ### That's all for now :-) Enjoy...
