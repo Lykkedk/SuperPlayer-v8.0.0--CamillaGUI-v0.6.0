@@ -107,7 +107,37 @@ I did test this over and over, and everything seem's to work flawlessly.
 Currently under construction!
 
 
+Git clone as in the guide and copy the new files to the right location :
+```
+tce-load -w git
+tce-load -i git
+git clone https://github.com/Lykkedk/SuperPlayer-v8.0.0--CamillaGUI-v0.6.0.git
+cd SuperPlayer-v8.0.0--CamillaGUI-v0.6.0
+cp camillagui-v1.0.0.tcz /mnt/mmcblk0p2/tce/optional
+cp camillagui-v1.0.0.tcz.dep /mnt/mmcblk0p2/tce/optional
+cp py3.8-pycamilladsp-1.0.0.tcz /mnt/mmcblk0p2/tce/optional
+cp py3.8-pycamilladsp-plot-1.0.1.tcz /mnt/mmcblk0p2/tce/optional
+```
+When done, the folder ```SuperPlayer-v8.0.0--CamillaGUI-v0.6.0``` can be deleted... Be carefull ;-) ```rm -fr SuperPlayer-v8.0.0--CamillaGUI-v0.6.0```
 
+Now edit the onboot.lst, to have the new binary's loaded at boot.\
+*Please ignore them other lines, just edit the one with the camillagui-xxxx.tcz*
+
+```nano /mnt/mmcblk0p2/tce/onboot.lst```
+```
+pcp.tcz
+pcp-8.0.0-www.tcz
+nano.tcz
+python3.8.tcz
+camilladsp-1.0.1.tcz
+camillagui-v1.0.0.tcz
+superplayer-samplerate-v8.0.0.tcz
+superplayer-alsa_cdsp-v8.0.0.tcz
+SuperPlayer-GameChanger.tcz
+```
+
+When done, execute ```pcp bu``` & then reboot the Pi-machine\
+Everything should hopefully work.\
 
 Jesper (lykkedk over at diyaudio.com)\
 
