@@ -154,6 +154,9 @@ mkdir /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/cdsp_coeffs
 mkdir /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/session
 touch /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/session/default_config.yml
 touch /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/session/active_config.yml
+chmod 777 /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/session/active_config.yml
+chmod 777 /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/session/default_config.yml
+
 ```
 Now edit the config file, which tells the CamillaDSP GUI where to store/save those thing's\
 It's these four lines inside which have to be changed :\
