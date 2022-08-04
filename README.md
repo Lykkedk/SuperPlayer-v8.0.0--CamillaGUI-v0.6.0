@@ -122,7 +122,7 @@ cp py3.8-pycamilladsp-plot-1.0.1.tcz /mnt/mmcblk0p2/tce/optional
 When done, the folder ```SuperPlayer-v8.0.0--CamillaGUI-v0.6.0``` can be deleted... Be carefull ;-) ```rm -fr SuperPlayer-v8.0.0--CamillaGUI-v0.6.0```
 
 Now edit the onboot.lst, to have the new binary's loaded at boot.\
-*Please ignore them other lines, just edit the one with the camillagui-xxxx.tcz*
+*Please ignore them other lines, just edit the one with the camillagui-xxxx.tcz (camillagui-v1.0.0.tcz)*
 
 ```nano /mnt/mmcblk0p2/tce/onboot.lst```
 ```
