@@ -156,7 +156,7 @@ touch /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/session/default_config.ym
 touch /mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/session/active_config.yml
 ```
 Now edit the config file, which tells the CamillaDSP GUI where to store/save those thing's\
-It's four lines inside which have to be changed :\
+It's these four lines inside which have to be changed :\
 *config_dir: "~/camilladsp/configs"*\
 *coeff_dir: "~/camilladsp/coeffs"*\
 *default_config: "~/camilladsp/default_config.yml"*\
@@ -166,19 +166,16 @@ It's four lines inside which have to be changed :\
 camilla_host: "127.0.0.1"
 camilla_port: 1234
 port: 5000
-config_dir: "~/camilladsp/configs"
-coeff_dir: "~/camilladsp/coeffs"
-default_config: "~/camilladsp/default_config.yml"
-active_config: "~/camilladsp/active_config.yml"
+config_dir: "/mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/cdsp_configs"
+coeff_dir: "/mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/cdsp_coeffs"
+default_config: "/mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/session/default_config.yml"
+active_config: "/mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui/session/active_config.yml"
 log_file: "~/camilladsp/camilladsp.log"
 update_symlink: true
 on_set_active_config: null
 on_get_active_config: null
 supported_capture_types: null
 supported_playback_types: null
-
-
-
 ```
 
 
