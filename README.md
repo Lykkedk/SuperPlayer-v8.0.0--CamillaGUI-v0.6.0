@@ -140,5 +140,5 @@ SuperPlayer-GameChanger.tcz
 When done, execute ```pcp bu``` & then reboot the Pi-machine\
 Everything should hopefully work.
 
-
+### That's all for now :-) Enjoy...
 
