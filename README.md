@@ -108,9 +108,6 @@ Jesper (lykkedk over at diyaudio.com)
 
 ## Upgrade Guide GUI
 
-Currently under construction!
-
-
 Git clone as in the guide and copy the new files to the right location :
 ```
 tce-load -w git
