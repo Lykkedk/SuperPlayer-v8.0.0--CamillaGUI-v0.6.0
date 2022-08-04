@@ -1,6 +1,10 @@
 # SuperPlayer-v8.0.0 --- CamillaGUI-v0.6.0 .tcz extensions
 **SuperPlayer-v8.0.0 is an sort of extension for the piCorePlayer v8 https://www.picoreplayer.org/**
 
+[!NEW! - Upgrade guide](#upgrade-guide-gui)\
+*This is ment as a future upgrade, for upgrading the CamillaDSP GUI, tricks and tracks etc...*\
+*Use when you allready have a working SuperPlayer SamplerateChanger & GUI installation*
+
 **CamillaGUI .tcz extensions the right way of doing it for TinyCore/PiCore Linux**\
 *Instead of pip3 install everything to be able to run the nice CamillaDSP-GUI i created a lot*\
 *of .tcz extensions, with help from the nice guy's over at TinyCore Linux RPI Forum*\
@@ -97,6 +101,10 @@ camillagui
             └── camillagui-v0.6.0
 ```
 I did test this over and over, and everything seem's to work flawlessly.
+
+## Upgrade Guide GUI
+
+Let's see!
 
 Jesper (lykkedk over at diyaudio.com)\
 
