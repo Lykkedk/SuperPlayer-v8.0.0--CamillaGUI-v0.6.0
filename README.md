@@ -3,7 +3,7 @@
 
 ![New GUI image](https://github.com/Lykkedk/SuperPlayer-v8.0.0--CamillaGUI-v0.6.0/blob/main/Screenshot-cdsp-new.png)
 
-[!NEW! - Upgrade guide](#upgrade-guide-gui)\
+[!NEW! - Upgrade guide](#upgrade-guide-gui) (pycamilladsp-1.0.0, pycamilladsp-plot-1.0.1)\
 *This is ment as a future upgrade, for upgrading the CamillaDSP GUI, tricks and tracks etc...*\
 *Use when you allready have a working SuperPlayer SamplerateChanger & GUI installation*
 
