@@ -17,7 +17,8 @@
 
 *For some insight's of howto ssh into piCorePlayer and edit stuff etc.., take a look at my other repos, where it's explained*
 
-**Here we go ::** ### GUI backend
+### GUI backend
+**Here we go ::** 
 
 Follow Henrik's instructions https://github.com/HEnquist/camillagui-backend and install the Backend Server for CamillaGUI in this location ::
 **/mnt/mmcblk0p2/tce/Camilla_Extensions/camillagui <----- The location is very important** 
