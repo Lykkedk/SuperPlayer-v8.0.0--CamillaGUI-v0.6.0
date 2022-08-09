@@ -17,7 +17,7 @@
 
 *For some insight's of howto ssh into piCorePlayer and edit stuff etc.., take a look at my other repos, where it's explained*
 
-### GUI backend
+## GUI backend
 **Here we go ::** 
 
 Follow Henrik's instructions https://github.com/HEnquist/camillagui-backend and install the Backend Server for CamillaGUI in this location ::
@@ -111,6 +111,7 @@ Jesper (lykkedk over at diyaudio.com)
 
 ## Upgrade Guide GUI
 
+First "upgrade" the backend to the new backend\
 [GUI Backend install](#gui-backend)
 
 Git clone as in the guide and copy the new files to the right location ::
