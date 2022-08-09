@@ -111,7 +111,7 @@ Jesper (lykkedk over at diyaudio.com)
 
 ## Upgrade Guide GUI
 
-First "upgrade" the backend to the new backend\
+First "upgrade" the backend to the new backend (I use this version now :https://github.com/HEnquist/camillagui-backend/releases/tag/v1.0.0-rc5) \
 [GUI Backend install](#gui-backend)
 
 Git clone as in the guide and copy the new files to the right location ::
